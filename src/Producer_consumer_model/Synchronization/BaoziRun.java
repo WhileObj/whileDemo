@@ -1,13 +1,12 @@
-import jdk.nashorn.internal.objects.annotations.Constructor;
+package Producer_consumer_model.Synchronization;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
+import Producer_consumer_model.BaoZi;
+
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class test1 {
+public class BaoziRun {
 
     public static void main(String[] args) {
         BaoZi baoZi=new BaoZi();
@@ -16,6 +15,7 @@ public class test1 {
 
         new Thread(new BzpThread(baoZi,lock,condition)).start();
         new Thread(new ChThread(baoZi,lock,condition)).start();
+
 
     }
 }

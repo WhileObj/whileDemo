@@ -1,8 +1,17 @@
+package Producer_consumer_model;
+
 public class BaoZi {
     private String xian;
     private String pi;
     private boolean flag=false;
 
+    public BaoZi() {
+    }
+
+    public BaoZi(String xian, String pi) {
+        this.xian = xian;
+        this.pi = pi;
+    }
 
     public String getXian() {
         return xian;

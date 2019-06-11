@@ -1,10 +1,12 @@
+package LeetCode;
+
 import javax.sound.midi.Soundbank;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
 
-public class test {
+public class LeetCode {
     public static void main(String[] args) {
 
         //1.两数之和

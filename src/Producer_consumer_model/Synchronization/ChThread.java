@@ -1,6 +1,9 @@
+package Producer_consumer_model.Synchronization;
+
+import Producer_consumer_model.BaoZi;
+
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
 
 public class ChThread implements Runnable{
     private BaoZi baoZi;
